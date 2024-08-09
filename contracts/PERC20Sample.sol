@@ -4,7 +4,7 @@ pragma solidity ^0.8.17;
 import "./PERC20.sol";
 
 contract PERC20Sample is PERC20 {
-    constructor() PERC20("coccy", "CCC") {}
+    constructor() PERC20("yo g", "GGG") {}
 
     function mint100tokens() public {
         _mint(msg.sender, 100*10**18);
